@@ -1,7 +1,7 @@
 import { Building2, Smartphone, Cloud, Database, ShoppingBag, HeartPulse, GraduationCap, Factory } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import ctaBackground from "figma:asset/22af0e893c30a293192dbe96eb9518e479709668.png";
+import teamImage from "../../../public/team_image.png";
 
 export function Solutions() {
   const solutions = [
@@ -327,7 +327,8 @@ export function Solutions() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src={ctaBackground} 
+            src={teamImage}
+} 
             alt="Security Background" 
             className="w-full h-full object-cover"
           />
