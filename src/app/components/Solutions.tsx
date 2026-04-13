@@ -328,7 +328,6 @@ export function Solutions() {
         <div className="absolute inset-0">
           <img 
             src={teamImage}
-} 
             alt="Security Background" 
             className="w-full h-full object-cover"
           />
