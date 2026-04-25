@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Send, CheckCircle, Globe, Clock, User } from "lucide-react";
+import { Mail, MapPin, Send, CheckCircle, Globe, Clock, User, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -71,7 +71,7 @@ ${formData.message}
     {
       icon: MapPin,
       title: "주소",
-      content: "대전광역시 동구 계족로512번길 86 2층",
+      content: "세종특별자치시 한누리대로 165\n 세종메디피아 4층 407호",
       color: "from-blue-700 to-cyan-600",
     },
     {
@@ -84,6 +84,12 @@ ${formData.message}
       icon: Globe,
       title: "홈페이지",
       content: "www.innoapp.co.kr",
+      color: "from-blue-800 to-blue-700",
+    },
+    {
+      icon: Phone,
+      title: "전화번호",
+      content: "044-862-5282",
       color: "from-blue-800 to-blue-700",
     },
   ];

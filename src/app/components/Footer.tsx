@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Mail, MapPin, Globe } from "lucide-react";
+import { Mail, MapPin, Globe, Phone } from "lucide-react";
 import logoImage from "../../../public/logo_vertical.png";
 
 export function Footer() {
@@ -73,7 +73,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-1 flex-shrink-0" />
-                <span>대전광역시 동구 계족로512번길 86 2층</span>
+                <span>세종특별자치시 한누리대로 165<br />세종메디피아 4층 407호</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} className="flex-shrink-0" />
@@ -82,6 +82,10 @@ export function Footer() {
               <li className="flex items-center space-x-2">
                 <Globe size={16} className="flex-shrink-0" />
                 <span>www.innoapp.co.kr</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <Phone size={16} className="flex-shrink-0" />
+                <span>044-862-5282</span>
               </li>
             </ul>
           </div>
